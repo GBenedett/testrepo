@@ -17,7 +17,7 @@ for x in range(4): #for annidato
     for y in range(3):
         print(f'({x},{y})')'''
 
-numbers = [5, 2, 5, 2, 2]
+'''numbers = [5, 2, 5, 2, 2]
 
 for item in numbers:
     print(item*"x")
@@ -28,6 +28,17 @@ for x_count in numbers:
     output = ''
     for count in range(x_count):
         output += 'x'
-    print(output)
+    print(output)'''
     
-    
+'''names = ['john', 'bob', 'mosh', 'sarah']
+names[0]= 'jon'#to correct the one element
+print(names[:3]) #to chose a element of vector'''
+
+numbers = [3, 6, 2, 4, 6, 99, 100, 4]
+max = numbers[0]
+
+for number in numbers:
+    if number > max:
+        max = number
+print(max)
+
