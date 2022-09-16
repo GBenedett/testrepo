@@ -13,10 +13,22 @@ print("finish")
 
 #key argument must be put after positional argument'''
 
-def square(number):
-    return number * number 
+'''def square(number):
+    return number * number #if I don't put return none it will be the answer
 
 result = square(3)  
 print(result)
 #also
 print(square(3))
+
+try:
+    age = int(input('age: '))
+    income = 20000
+    risk = income/age
+    print(age)
+    print(risk)
+except ValueError:
+    print('invalid value') #instead crashing print this line
+except ZeroDivisionError:
+    print('invalid value')'''
+
