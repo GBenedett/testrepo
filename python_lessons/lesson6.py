@@ -34,11 +34,11 @@ for x_count in numbers:
 names[0]= 'jon'#to correct the one element
 print(names[:3]) #to chose a element of vector'''
 
-numbers = [3, 6, 2, 4, 6, 99, 100, 4]
+'''numbers = [3, 6, 2, 4, 6, 99, 100, 4]
 max = numbers[0]
 
 for number in numbers:
     if number > max:
         max = number
-print(max)
+print(max)'''
 

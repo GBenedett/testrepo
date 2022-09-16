@@ -1,9 +1,6 @@
 #Tuples
 #they can't be modifyed
 
-from operator import xor
-
-
 '''numbers = (1, 2, 3,3) #with () is a tuples
 print(numbers[0])
 print(numbers.count(3))
@@ -37,7 +34,7 @@ digits_mapping = {
         }
 output = ''
 for ch in phone_number:
-    output += digits_mapping.get(ch, '!') + ' ' #to get things from the dictionarie
+    output += digits_mapping.get(ch, '!') + ' ' #to get things from the dictionarie, and I say what has to be changed and in which way in case there isn't a supplier
 print(output)'''
 
 message =input('>')

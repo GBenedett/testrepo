@@ -10,7 +10,7 @@ for row in matrix:
     for item in row:
         print(item)'''
 
-numbers = [5, 2, 1,  7, 4, 5, 5]
+'''numbers = [5, 2, 1,  7, 4, 5, 5]
 numbers2 = numbers.copy() #do a copy of the first list
 numbers.append(20) #to add a number at the end
 numbers.insert(0, 10) #in this case we add a number in a certain index(first number)
@@ -28,9 +28,9 @@ numbers.reverse() #to sort a list reverse
 print(numbers)
 print(numbers2) #changing don't affect the second list because is indipendent
 
-
+#creo una lista di numeri unici, non duplicati
 uniques = []
 for number in numbers:
     if number not in uniques:
         uniques.append(number)
-print(uniques)
+print(uniques)'''
